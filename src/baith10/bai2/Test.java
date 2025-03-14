@@ -20,9 +20,9 @@ public class Test {
         king.fight();
         queen.setWeapon(new SwordBehavior());
         queen.fight();
+        troll.setWeapon(new ClubBehavior());
+        troll.fight();
 
-
-        knight.fight();
     }
 }
 
